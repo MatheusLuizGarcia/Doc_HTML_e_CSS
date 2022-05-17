@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form>
+
+            <label for="nome">Primeiro nome:</label>
+        <br>
+            <input type="text" name = nome>
+        <br>
+            <label for="sobrenome">Sobrenome:</label>
+        <br>
+            <input type="text" name ="sobrenome">
+        <br>
+        <br>
+        <!-- Radio -->
+            <h3>O que você achou do site?</h3>
+        <br>
+            <input type="radio" name="opcaounica"> Muito Bom
+            <input type="radio" name="opcaounica"> Bom
+            <input type="radio" name="opcaounica"> Regular
+            <input type="radio" name="opcaounica"> Ruim
+        <br>
+        <br>
+            <h3>Qual sessão você mais gostou?</h3>
+        <br>
+            <select name="sessao">
+                <option value="cartaz">Em Cartaz</option>
+                <option value="animacao">Animação</option>
+                <option value="romance">Romance</option>
+                <option value="" selected>Outra</option>
+            </select>
+            <label for="sessaooutra"></label>
+            <input type="text" name="sessaooutra" placeholder="Digite outra sessão">
+        <br>
+        <br>
+        <br>
+            <input type="checkbox"> Hoje está chovendo?
+        <br>
+            <input type="checkbox"> Hoje está escuro?
+        <br>
+        <br>
+            <table>
+                <tr>
+                    <td>Nome completo:</td>
+                    <td><input type="text" name="nomecomp"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email"</td>
+                </tr>
+                <tr>
+                    <td>Telefone:</td>
+                    <td><input  type="tel" name="Telefone"</td>
+                </tr>
+            </table>
+
+            <h3>Insira um comentário extra</h3>
+            <textarea name="areatexto" cols="50" rows="10" maxlength="180" placeholder="digite seu comentário""></textarea>
+        <br>
+        <br>
+            <input type="button" name="botao" value="Botão">
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="reset" value="Limpar">
+
+    </form>
+
+</body>
+</html>
