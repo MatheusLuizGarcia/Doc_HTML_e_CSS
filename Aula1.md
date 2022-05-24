@@ -9,12 +9,15 @@ https://www.w3schools.com ->básico de HTML, CSS, python, Javascript e mais
 ## Estrutura de um arquivo .HTML
 ---
 
-**HTML (HyperText Markup Language):** linguagem demarcadora de hipertexto (links, imagens, etc), compõe grande parte do visual de uma página da web. Por meio dela é possivel definir títulos, cabeçalhos, parágrafos, links e muito mais por meio de tags.
+HTML (HyperText Markup Language);
 
-**Utilização e tags:** tags são definidas pelo uso de ````<>````, onde o que é inserido no meio dos sinais de "maior que" e "menor que" define a funcionalidade da tag.
+Linguagem de marcação;
+
+Marcamos onde e como queremos que nossos elementos se comportem;
+
+Utilização e tags;
 
 ### Demonstração:
-
 ```
 <html>
     <head>
@@ -30,14 +33,10 @@ https://www.w3schools.com ->básico de HTML, CSS, python, Javascript e mais
 </html>
 ```
 
-**Nota:** Algumas tags precisam ser fechadas com </> para funcionarem corretamente, esta função também serve para delimitar os caracteres a serem formatados pela tag.
-
 ---
 ## Tags importantes:
 ---
-````<!DOCTYPE html>```` -> define a linguagem da página como html, possibilitando a leitura de tags
-
-```<html>``` ->demarca o começo da formatação da página como html
+```<html>``` ->define a linguagem da página como html
 
 ```<head>``` ->cria um espaço para o título da página
 
@@ -74,7 +73,7 @@ A tag ````<link>```` serve para conectar ou buscar um elemento para o lado do cl
 
 ````<a href="<site>"><texto></a>```` ->insere um link para outra página com o texto como hyperlink
 
-````<a target="<alvo_do_hyperlink>">```` ->define em que página o link vai ser aberto, alvo do hyperlink pode ser definido como "_self" para abrir na própria aba (padrão do html, não precisa inserir neste caso) ou "_blank" para abrir numa nova aba.
+````<a target="<alvo_do_hyperlink>">```` ->define em que página o link vai ser aberto
 
 ---
 ### Script tags
@@ -89,7 +88,7 @@ A tag ````<script>```` é usada para incorporar um script do lado do cliente (Ja
 ---
 ````<b>```` ->negrito
 
-````<strong>```` ->negrito (padrão HTML5)
+````<strong>```` ->o mesmo que negrito (padrão HTML5)
 
 ````<i>```` ->itálico
 

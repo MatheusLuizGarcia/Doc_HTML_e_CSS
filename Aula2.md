@@ -34,12 +34,27 @@
 
 ````<td rowspan="2">```` -> define a altura da linha como 2 entradas
 
----
-# Estilização
-
-É possível criar uma prancheta de estilização para todas as páginas para economizar tempo
 
 ---
 # Formulário
 
+Para trabalhar com espaços para inserçã de informações (como num formulário por exemplo), podemos utilizar várias tags dependendo do tipo e uso de informação:
 
+````
+<label for="<dado>">
+<input type="<tipo_de_dado>">
+````
+cria um espaço para inserção de um tipo de texto e atribui essa informação a um dado
+
+````<input type="radio" name="<grupo>">```` ->cria uma opção de escolha única num grupo do tipo rádio, é possível assinalar vários rádios se os grupos forem diferentes
+
+````<option value="<valor>">```` ->cria uma opção de escolha múltipla e atribui um valor para ele, é possível atribuir valores iguais para várias opções
+
+````<input type="checkbox">```` ->cria uma caixa de checagem com valores de falso(unchecked) e verdadeiro (checked)
+
+````
+<input type="button" name="botao" value="Botão">
+<input type="submit" name="enviar" value="Enviar">
+<input type="reset" name="reset" value="Limpar">
+````
+cria botões simples de interação com alguns comandos pré-determinados, assimila eles à um nome de dado através do name e informa sua função através do value 

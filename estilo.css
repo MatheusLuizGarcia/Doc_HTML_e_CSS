@@ -6,3 +6,52 @@ table, th, td{
 th, td{
     background-color: slateblue;
 }
+
+nav{
+    width: 90%;
+    float: right;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: ISOCPEUR;
+    color: black;
+}
+
+nav a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+a:hover{
+    background-color: grey;
+}
+
+a.logo{
+    padding-top: 10px;
+    padding-left: 15px;
+    display: block;
+    float: left;
+}
+
+.rodapePag{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: ISOCPEUR;
+    color: black;
+}
+
+section{
+    font-family: ISOCPEUR;
+}
+
+.cabecalho{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+    font-family: ISOCPEUR;
+}
