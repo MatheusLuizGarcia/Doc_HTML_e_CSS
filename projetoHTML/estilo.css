@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+}
+
+html{
+    background-color: grey;
+    font-family: ISOCPEUR;
+}
+
+table, th, td{
+    border: 3px solid dimgray;
+    border-radius: 5px;
+    float: left;
+}
+
+
+th, td{
+    background-color: slateblue;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(30, 32, 33);
+}
+
+.itmNav{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: white;}
+
+.logo:hover, .itmNav:hover{
+    background-color: gray;
+}
+
+.logo{
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    color: white;}
+
+.rodapePag{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(30, 32, 33);
+    color: white;}
+
+header{
+    display: inline-block;
+}
+
+.typewriter h1 {
+    color: black;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+#bloco1:hover, #bloco2:hover, #bloco3:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+#bloco1, #bloco2, #bloco3{
+    display: inline-block;
+    padding: 10px;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    filter: none;
+}
+
+footer {
+    position: fixed;
+    top: 96.1%;
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    background-image: url('../imagens/backgroundofc.jpg');
+    background-repeat: no-repeat;
+}
